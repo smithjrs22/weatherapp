@@ -1,0 +1,32 @@
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+body{
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(rgb(47, 150,163), rgb(48, 62,143));
+    font-family: sans-serif;
+    color: white;
+}
+.card {
+    padding:2em;
+    border-radius: 30px;
+    width: 90%;
+    max-width: 420px;
+    background: blue;
+}
+.search-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.button {
+    margin: .5em;
+    border-radius: 50%;
+}
+
