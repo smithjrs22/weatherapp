@@ -28,14 +28,13 @@ function showWeather(data) {
   let currentConditions= document.getElementById("current-conditions");
   let humidity = document.getElementById("humidity");
   let currentDate = document.getElementById("current-date");
-  // let icon = document.getElementById("icon");
   city.innerHTML = `${data.name}`;
   temp.innerHTML = `Temperature ${data.main.temp} &#176;F`;
   tempHiLow.innerHTML = `High ${data.main.temp_min}&#176;F / Low ${data.main.temp_max}&#176;F`;
   currentConditions.innerHTML = `${data.weather[0].description}`;//currently comes back undefined//
   humidity.innerHTML = `Humidity ${data.main.humidity}%`;
   currentDate.innerHTML = `Current Date is ${new Date()}`;
-  // icon.innerHTML = `${data.weather.icon}`;
 }
 
-
+ // let icon = document.getElementById("icon");
+  // icon.innerHTML = `${data.weather.icon}`;
